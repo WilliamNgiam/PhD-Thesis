@@ -1,0 +1,85 @@
+---
+title: "The influence of learning in visual working memory"
+author: "William Xiang Quan Ngiam"
+fontfamily: times
+fontsize: 12pt
+output:
+  pdf_document: 
+    fig_caption: yes
+    number_sections: yes
+bibliography: ["Thesis References.bib"]
+csl: apa.csl
+geometry: margin = 1.2in
+papersize: a4
+header-includes:
+- \setlength{\parindent}{3em}   # Controls formatting of paragraph indent
+- \setlength{\parskip}{.2em}    # Controls formatting of paragraph skip
+- \usepackage{placeins}
+- \usepackage{setspace}
+- \usepackage{chngcntr}
+- \onehalfspacing               # Controls line spacing
+- \usepackage{indentfirst}      # Indent first paragraph
+- \usepackage{sectsty} 
+- \sectionfont{\centering \textbf}
+- \subsectionfont{\normalsize}  # Format section and subsection titles
+body-includes:
+- \setlength{\parident}{3em}
+documentclass: "article"
+Base Header Level: 2
+
+---
+```{r setup, include=FALSE}
+library("papaja")
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\newpage
+\setcounter{tocdepth}{3}
+\tableofcontents
+
+\newpage
+\pagenumbering{arabic}
+
+\newpage
+\addcontentsline{toc}{section}{Chapter 1: Introduction}
+\section*{Chapter 1: Introduction}
+\setcounter{section}{1}
+```{r child = 'Chapter 1.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+\addcontentsline{toc}{section}{Chapter 2: The effect of complexity and familiarity on visual working memory}
+\section*{Chapter 2: The effect of complexity and familiarity on visual working memory}
+\setcounter{section}{2}
+\setcounter{subsection}{0}
+```{r child = 'Chapter 2.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+\addcontentsline{toc}{section}{Chapter 3: The effect of statistical learning on visual working memory}
+\section*{Chapter 3: The effect of statistical learning on visual working memory}
+\setcounter{section}{3}
+\setcounter{subsection}{0}
+```{r child = 'Chapter 3.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+\addcontentsline{toc}{section}{List of Figures}
+\listoffigures
+
+\newpage
+\addcontentsline{toc}{section}{List of Tables}
+\listoftables
+
+\FloatBarrier
+\newpage
+
+
+#References {-}
+\setlength{\parindent}{-0.4in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\noindent

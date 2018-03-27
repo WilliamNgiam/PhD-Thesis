@@ -1,0 +1,18 @@
+---
+output: pdf_document
+---
+
+## Abstract
+
+In the previous chapter, the effect of familiarity on VWM was examined...
+
+## Introduction
+
+Given the strict capacity limit of VWM and its robust correlations to measures of cognitive ability such as fluid intelligence and scholastic achievement [@conway_latent_2002; @cowan_constant_2004; @unsworth_working_2014; @fukuda_quantity_2010], there is sustained interest in manipulations that potentially enhance VWM capacity. An influential paper by @brady_compression_2009 demonstrated including regularities in the color pairs shown in displays improved VWM recall performance relative to displays without any regularities. That is, when specific pairs of colours were more likely to appear in the display, observers were able to use this to their advantage and improve recall accuracy. This chapter explores This set of experiments investigated the mechanism of learning that produces the enhanced memory performance, and how that maps on to the architecture of VWM.
+
+### Chunking
+
+Improvement in memory performance has classically been explained using *chunking*. @miller_magical_1956 proposed learning allowed greater amounts of information to be stored more efficiently in "chunks", with the absolute number of chunks stored into memory remaining constant [@miller_magical_1956]. For example, experts recall chess positions from real matches significantly better than novices, but not better when these positions are random distributed chess pieces [@chase_percetion_1973]. As recall performance was equivalent on random positions, this suggests chess masters do not have a larger VWM capacity but instead use their expertise to efficiently "chunk" game positions, which novices cannot do.
+
+@brady_compression_2009 show chunking models provide an accurate approximation of how observers may take advantange of the statistical regularities. 
+
