@@ -1,5 +1,5 @@
 ---
-title: "The influence of learning in visual working memory"
+title: "Cognitive influences on visual working memory"
 author: "William Xiang Quan Ngiam"
 fontfamily: times
 fontsize: 12pt
@@ -41,8 +41,14 @@ knitr::opts_chunk$set(echo = TRUE)
 \pagenumbering{arabic}
 
 \newpage
-\addcontentsline{toc}{section}{Chapter 1: Introduction}
-\section*{Chapter 1: Introduction}
+\addcontentsline{toc}{section}{Abstract}
+\section*{Abstract}
+```{r child = 'Abstract.Rmd'}
+```
+
+\newpage
+\addcontentsline{toc}{section}{Chapter 1: Thesis Introduction}
+\section*{Chapter 1: Thesis Introduction}
 \setcounter{section}{1}
 ```{r child = 'Chapter 1.Rmd'}
 ```
@@ -64,6 +70,25 @@ knitr::opts_chunk$set(echo = TRUE)
 \setcounter{subsection}{0}
 ```{r child = 'Chapter 3.Rmd'}
 ```
+
+\FloatBarrier
+\newpage
+\addcontentsline{toc}{section}{Chapter 4: Chunking on electrophysiological measures of visual working memory}
+\section*{Chapter 4: Chunking on electrophysiological measures of visual working memory}
+\setcounter{section}{4}
+\setcounter{subsection}{0}
+```{r child = 'Chapter 4.Rmd'}
+```
+
+\FloatBarrier
+\newpage
+\addcontentsline{toc}{section}{Chapter 5: Thesis Discussion}
+\section*{Chapter 5: Thesis Discussion}
+\setcounter{section}{5}
+\setcounter{subsection}{0}
+```{r child = 'Chapter 5.Rmd'}
+```
+
 
 \FloatBarrier
 \newpage

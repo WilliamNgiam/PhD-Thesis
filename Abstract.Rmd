@@ -1,0 +1,5 @@
+---
+output: pdf_document
+---
+
+To produce a smooth perception of the world, our visual system relies on a memory system, termed "visual working memory," to retain and manipulate the necessary information vital for perception. Despite the rich visual world, the visual working memory system is surprisingly limited to approximately three to four items worth of information in storage capacity. In this dissertation, I take two approaches to exploring what factors influence this storage limit, the first from a bottom-up stimulus-driven perspective, and the second from a top-down cognitive perspective. In Chapter 1, I summarize key debates around the architecture of visual working memory that reflect this storage capacity limit, and the predictions these models make about how factors influence this storage limit. In Chapter 2, I examine the influence of stimulus complexity and familiarity on the visual working memory performance. In Chapter 3, I examine the influence of statistical learning on visual working memory performance. In Chapter 4, I examine the influence of chunking on a electrophysiological measure of memory capacity.
